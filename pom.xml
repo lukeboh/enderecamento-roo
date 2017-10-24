@@ -10,9 +10,9 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
   <groupId>br.tse.jus.eleitoral.enderecamento</groupId>
-  <artifactId>enderecamento</artifactId>
+  <artifactId>enderecamento-roo</artifactId>
   <version>1.0.0.BUILD-SNAPSHOT</version>
-  <name>enderecamento</name>
+  <name>enderecamento roo</name>
 
   <packaging>jar</packaging>
 
