@@ -4,6 +4,8 @@
 package br.tse.jus.eleitoral.enderecamento.config.jackson;
 
 import br.tse.jus.eleitoral.enderecamento.config.jackson.DomainModelModule;
+import br.tse.jus.eleitoral.enderecamento.dominio.UF;
+import br.tse.jus.eleitoral.enderecamento.web.UFJsonMixin;
 import com.fasterxml.jackson.databind.module.SimpleModule;
 import org.springframework.boot.jackson.JsonComponent;
 
@@ -20,6 +22,7 @@ privileged aspect DomainModelModule_Roo_DomainModelModule {
     public DomainModelModule.new() {
         // Mixin registration
         
+        setMixInAnnotation(UF.class, UFJsonMixin.class);
     }
 
 }
