@@ -7,3 +7,4 @@ field string --fieldName nome --notNull
 repository jpa --all
 service --all
 web mvc setup
+web mvc view setup --type THYMELEAF 
