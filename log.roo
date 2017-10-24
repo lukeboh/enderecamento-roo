@@ -4,3 +4,4 @@ jpa setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY
 entity jpa --class ~.dominio.UF
 field string --fieldName sigla --notNull 
 field string --fieldName nome --notNull 
+repository jpa --all
